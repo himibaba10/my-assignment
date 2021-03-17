@@ -1,0 +1,161 @@
+<html>
+<head>
+    <title>Covid-19</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .top-section, .last-section{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 50px 0;
+        }
+        .top-section h1{
+            font-size:60px;
+            color:#b320da;
+        }
+        .top-section div, .last-section div{
+            width: 45%;
+        }
+        .mid-section {
+            margin: 30px;
+            padding: 30px;
+            position: relative;
+        }
+        .last-section {
+            border: 2px solid goldenrod;
+            margin:0 20px 40px 20px;
+			padding: 10px;
+            background: linear-gradient(45deg, lightgreen, rgb(232, 237, 243));
+            
+        }
+        .last-section ul li {
+            font-size: 20px;
+            font-variant: small-caps;
+            font-weight: bold;
+            line-height: 30px;
+        }
+        .last-section ol li {
+            font-size: 20px;
+            font-style: italic;
+            font-weight: bold;
+            line-height: 30px;
+        }
+        .last-section h3{
+            font-size: 30px;
+        }
+        h1,h2,h3 {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        p, li, th, td {
+            font-family:  cursive;
+            font-size: 22px;
+        }
+        a {
+            font-weight: bold;
+            background-color: #4CAF50;
+            padding: 12px 20px;
+            border-radius: 15px;
+            text-decoration: none;
+            color: white;
+            font-size: 2vw;
+        }
+        table,th,td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 12px 20px;
+            margin: 15px;
+        }
+        #update {
+            color: white;
+            background-color: black;
+            width: 50%;
+            margin: auto;
+            padding: 20px;
+            border-radius: 20px;
+        }
+        .fixed {
+            position: fixed;
+            top: 0;
+            right: 0;
+            background-color: #4CAF50;
+            color: white;
+            padding: 6px 8px;
+        }
+    </style>
+</head>
+<body>
+    <section class="top-section">
+        <div>
+            <h1>About Covid-19</h1>
+            <p>Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.</p>
+            <p>Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.</p>
+            <p>The best way to prevent and slow down transmission is to be well informed about the COVID-19 virus, the disease it causes and how it spreads. Protect yourself and others from infection by washing your hands or using an alcohol based rub frequently and not touching your face. </p>
+            <a href="https://en.wikipedia.org/wiki/COVID-19" title="covid-19 wiki">See More information about covid-19</a>
+        </div>
+        <div>
+            <img style="width:100%" src="https://www.unicef.org/bangladesh/sites/unicef.org.bangladesh/files/styles/hero_mobile/public/1583952355.1997.jpg?itok=4fv3SXxY" alt="coronavirus">
+        </div>
+    </section>
+    <section class="mid-section">
+        <h2 id="update">Update about Covid-19</h2>
+        <table width="100%">
+            <tr>
+                <th>Country</th>
+                <th>Total Cases</th>
+                <th>Total Recovered</th>
+                <th>Total Deaths</th>
+            </tr>
+            <tr>
+                <td>USA</td>
+                <td>30,043,662</td>
+                <td>22,108,596</td>
+                <td>546,605</td>
+            </tr>
+            <tr>
+                <td>India</td>
+                <td>11,359,048</td>
+                <td>10,989,897</td>
+                <td>158,642</td>
+            </tr>
+            <tr>
+                <td>France</td>
+                <td>4,045,319</td>
+                <td>272,615</td>
+                <td>90,315</td>
+            </tr>
+        </table>
+    </section>
+    <section class="last-section">
+        <div>
+            <h3 style="color: blue">Common symptoms Of coronavirus</h3>
+            <ul>
+                <li>Fever</li>
+                <li>Dry cough</li>
+                <li>Tiredness</li>
+                <li>Aches and pains</li>
+                <li>Soar throat</li>
+                <li>Diarrhoea</li>
+                <li>Loss of taste</li>
+            </ul>
+        </div>
+        <div>
+            <h3 style="color: brown">Treat coronavirus at home</h3>
+            <ol>
+                <li>Drink plenty of fluids</li>
+                <li>Avoid Alcohol</li>
+                <li>Get Plenty of rest</li>
+                <li>Use over-the-counter medicines</li>
+                <li>Keep yourself clean every hour</li>
+                <li>Drink milk and egg regularly</li>
+                <li>Use necessary medicines</li>
+            </ol>
+        </div>
+    </section>
+    <p class="fixed">Covid-19 Details</p>
+</body>
+</html>
